@@ -1,0 +1,50 @@
+/* Styles for the about-container */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Styles for the animated background */
+.animated-background {
+  background: url('your-background-image.jpg') center/cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.7); /* Adjust the brightness as needed */
+}
+
+/* Styles for the about-content */
+.about-content {
+  background: rgba(255, 255, 255, 0.9); /* Background color with some opacity */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Styles for the heading */
+.about-heading {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+/* Styles for the subheading */
+.about-subheading {
+  font-size: 1.5rem;
+}
+
+/* Styles for the description */
+.about-description {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+
+
+  
+  
+  
